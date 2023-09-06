@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Phudu:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Phudu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&family=Phudu:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+:root {
+    --fonte1: Verdana, Geneva, tahoma, sans-serif;
+    --fonte2:'Open Sans', sans-serif;
+    --fonte3: 'Phudu', cursive;
+    --fonte4: 'Bebas Neue', sans-serif;
+}
+.search-box{
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    
+}
+
+div.quadrado{
+    display:inline-block;
+    position: relative;
+    left: 20%;
+    right: 10%;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    
+
+}
+div.noticias{
+    display: inline-block;
+    border: 1px solid grey;
+    width: 250px;
+    height: 350px;
+    position: relative;
+    left: -1%;
+    right: 15%;
+   text-align: center;
+   color: azure;
+}
+div#a1{
+    background-image: url(image/victus_arma.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+div#a2{
+    background-image: url(image/intervation_arma.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+div#a3{
+    background-image: url(image/carrack_arma.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+div#a4{
+    background-image: url(image/SP_arma.jpg);
+    background-size: cover;
+    background-position: center;
+  
+}
+div#jogo1{
+    background-image: url(image/valorant_poster.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+div#jogo2{
+    background-image: url(image/lol_poster.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div#jogo3{
+    background-image: url(image/tft_poster.jpg);
+    background-size: cover;
+    background-position: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    min-height: 100vh;
+    background-color: darkgray;
+    
+}
+header{
+background-color: black;
+color: white;
+padding-left: 10px;
+font-family: var(--fonte4);
+
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+
+}
+article{
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 350px;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    border-radius: 10px;
+    text-align: justify;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+nav{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding-left: 10px;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+section#JOGO_DESTAQUE{
+    background-image: url(../teste2/image/ghost_capa.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position: fixed;
+    font-family: var(--fonte2);
+
+}
+section#OUTROS{
+    background-image: linear-gradient(to bottom, black, darkgray);
+
+}
+section#OUTROS{
+    font-family: var(--fonte3);
+    color: white;
+    text-align: center;
+}
