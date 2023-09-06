@@ -19,12 +19,12 @@
 div.quadrado{
     display:inline-block;
     position: relative;
-    left: 20%;
+    left: 2%;
     right: 10%;
     text-align: center;
     color: white;
     border: 1px solid black;
-    width: 250px;
+    width: 315px;
     height: 200px;
     border-radius: 10px;
     
