@@ -9,13 +9,56 @@
     --fonte3: 'Phudu', cursive;
     --fonte4: 'Bebas Neue', sans-serif;
 }
+span{
+    padding-left: 94.5%;
+    color: white;
+}
+i{
+    color: white;
+    padding-left: 10px;
+}
+menu{
+    display: none;
+    text-align: left;
+
+}
+menu > ul{
+    list-style-type: none;
+    font-family: var(--fonte5);
+    
+}
+menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    border-top: 2px solid rgb(0, 0, 0);}
+menu a:hover{
+    background-color: rgb(40, 13, 53);
+}
 .search-box{
     position: absolute;
     top: 2%;
     left: 80%;
     
 }
-
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+    text-align: left;
+    margin: 8px;
+}
+article > p{
+    font-size: 1.2em;
+    text-align: left;
+}article > p#baixo{
+    font-size: small;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3px;
+}
 div.quadrado{
     display:inline-block;
     position: relative;
@@ -24,8 +67,10 @@ div.quadrado{
     text-align: center;
     color: white;
     border: 1px solid black;
-    width: 315px;
-    height: 200px;
+    width: 300px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
  
     
 
@@ -35,10 +80,7 @@ div.noticias{
     border: 1px solid grey;
     width: 250px;
     height: 350px;
-    position: relative;
-    left: -1%;
-    right: 15%;
-   text-align: center;
+    margin: 15px;
    color: azure;
 }
 div#a1{
@@ -110,7 +152,7 @@ article{
     padding: 5px;
     text-shadow: 1px 1px 0px black;
     border-radius: 5px;
-    text-align: justify;
+    text-align: left;
 }
 footer a{
     color: white;
@@ -118,7 +160,7 @@ footer a{
     font-weight: bolder;
 }
 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer{
     background-color: black;
@@ -131,24 +173,39 @@ nav{
     padding-left: 10px;
 
 }
-nav a{
+nav>a{
     color: white;
     text-decoration: none;
 }
 section#JOGO_DESTAQUE{
-    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8565.jpg);
+    font-family: var(--fonte2);
+    background-image: linear-gradient(to right, black, rgb(0, 0, 0),rgba(0, 0, 0, 0.555),rgba(214, 214, 214, 0)), url(https://4kwallpapers.com/images/walls/thumbs_3t/8565.jpg);
+    background-repeat: no-repeat, no-repeat;
     background-position: center center;
     background-size: cover;
     background-position: fixed;
-    font-family: var(--fonte2);
-
+}
+h3>img{
+    height: 190px;
+    width: 400px;
+    
+}
+h2#h22{
+    text-align: center;
+    margin: 10px;
+    
 }
 section#OUTROS{
-    background-image: linear-gradient(to bottom, black, darkgray);
+    background-image: linear-gradient(to bottom, black,rgb(0, 0, 0), rgb(36, 0, 82));
 
 }
 section#OUTROS{
     font-family: var(--fonte3);
     color: white;
     text-align: center;
+}
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
